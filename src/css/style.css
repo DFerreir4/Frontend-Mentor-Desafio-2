@@ -14,7 +14,7 @@
 }
 
 body{
-    min-height: 97vh;
+    min-height: 86vh;
     background-color: hsl(30, 38%, 92%);
 }
 
@@ -25,6 +25,14 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     
+}
+
+main > div.imagem{
+    height: 510px;
+    width: 300px;
+    background-image: url('../img/image-product-desktop.jpg');
+    background-size: cover;
+    border-radius: 10px 0px 0px 10px;
 }
 
 main > img{
@@ -44,7 +52,9 @@ main > section{
 section > p.titulo{
     padding-top: 30px;
     font-family: var(--font3);
+    font-size: 14px;
     font-weight: normal;
+    color: rgba(82, 80, 80, 0.715);
     letter-spacing: 7px;
     
 
@@ -61,6 +71,7 @@ section > p.texto{
     padding-top: 30px;
     font-family: var(--font3);
     font-weight: 400;
+    color: rgba(82, 80, 80, 0.715);
 }
 
 section > div.valores{
@@ -80,6 +91,7 @@ section > div > div.valor-riscado{
     padding-top: 15px;
     padding-bottom: 50px;
     text-decoration: line-through;
+    color: rgba(82, 80, 80, 0.715);
 }
 
 section > input{
@@ -98,6 +110,7 @@ section > input{
     border: none;
    
 }
+
 
 
 
