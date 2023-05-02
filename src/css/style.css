@@ -35,11 +35,6 @@ main > div.imagem{
     border-radius: 10px 0px 0px 10px;
 }
 
-main > img{
-    height: 510px;
-    width: 300px;
-    border-radius: 10px 0px 0px 10px; 
-}
 
 main > section{
     background-color: white;

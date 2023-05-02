@@ -1,13 +1,20 @@
 @media(max-width: 625px) {
-    
+     
     main{
         margin-top: 30px;
     }
     
-    
-    main > img{
-        
+    main > div.imagem{
+        width: 570px;
+        height: 350px;
         background-image: url('../img/image-product-mobile.jpg');
-        display: none;
+        border-radius: 10px 10px 0px 0px;
     }
- }
+
+    main > section {
+        width: 500px;
+        border-radius: 0px 0px 10px 10px; 
+        padding-bottom: 30px;
+    }
+
+}
