@@ -83,9 +83,8 @@ section > div > div.valor-riscado{
 }
 
 section > input{
-    width: 200px;
-    /* width: 250px;
-    height: 50px; */
+    width: 250px;
+    height: 50px; 
     text-align: center;
     background-color: hsl(158, 36%, 37%);
     border-radius: 10px;
@@ -93,13 +92,16 @@ section > input{
     font-family: var(--font3);
     font-weight: bolder;
     background-image: url('../img/icon-cart.svg');
-    background-repeat: no-repeat;
-    
-    
-    
-    
-
+    background-repeat: no-repeat;   
+    background-position: 25% 50%;
+    box-shadow: none;
+    border: none;
+   
 }
+
+
+
+
 
 
 
