@@ -49,6 +49,7 @@ section > p.titulo{
     font-family: var(--font3);
     font-size: 14px;
     font-weight: normal;
+    text-transform: uppercase;
     color: rgba(82, 80, 80, 0.715);
     letter-spacing: 7px;
     

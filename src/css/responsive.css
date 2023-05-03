@@ -18,3 +18,33 @@
     }
 
 }
+
+@media(max-width: 376px){
+
+  
+
+  main > div.imagem {
+    width: 350px;
+    height: 275px;
+    background-size: cover;
+  }
+
+  main > section{
+    width: 280px;
+  }
+
+  section > h1{
+    padding-top: 10px;
+    font-size: 2em;
+  }
+
+  section > p.texto{
+    padding-top: 20px;
+    line-height: 1.5em;
+    font-size: 0.8em;
+  }
+
+ 
+
+
+}
